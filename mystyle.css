@@ -1,0 +1,227 @@
+.Header
+{
+    padding: 0;
+    margin:0;
+    background-color: gray;
+
+
+}
+.Header1
+{
+    
+    color:rgb(169, 16, 169);
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: white;
+    width: 420px;
+    height: 170px;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px blue;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    box-shadow: 5px 5px  purple ;
+    position: absolute;
+    top: 10px;
+    left: 450px;
+   
+}
+.Hline
+{
+    height: 200px;
+}
+.add
+{
+    border: 5px solid green;
+    width: 99%;
+    height: 620px;
+}
+.add1
+{
+    color: black;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: white;
+    width: 320px;
+    height: 230px;
+    font-size: 25px;
+    box-shadow: 5px 5px  purple ;
+    text-shadow: 5px 5px 7px purple ;
+    font-weight: bolder;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    left: 10px;
+}
+.img
+{
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: white;
+    width: 320px;
+    height: 230px; 
+    box-shadow: 5px 5px  purple ;
+    position: absolute;
+    top: 240px;
+    left: 910px;
+}
+.add11
+{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 200px;
+    height: 170px;
+}
+.stick
+{
+    border: 5px solid red;
+    border-radius: 15px;
+    width: 450px;
+    height:100px;
+    position: absolute;
+    top: 490px;
+    left: 390px;
+    background-color:greenyellow;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 5px 5px  purple ;
+    display: grid;
+
+}
+.stick1
+{
+    color: red;
+    font-size: 23px;
+    font-weight: bolder;
+    font-style: italic;
+    word-spacing: normal;
+    position: absolute;
+    left: 30px;
+}
+.stick2
+{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    word-spacing: 130px;
+}
+.stick11
+{
+    font-weight: lighter;
+    margin-left: 260px;
+    margin-top: -45px;
+    font-size: 20px;
+}
+.stick22
+{
+    position: absolute;
+    top: 30px;
+    left: 310px;
+}
+.Hd
+{
+    color: black;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: white;
+    width: 320px;
+    height: 230px;
+    font-size: 20px;
+    box-shadow: 5px 5px  purple ;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 5px 5px 7px purple ;
+    position: absolute;
+    top: 600px;
+    left: 10px;
+    text-align: left;
+    line-height: 15px;
+}
+.Hd1
+{
+    word-spacing: -1px;
+}
+.Hd2
+{
+    color: black;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: white;
+    width: 320px;
+    height: 230px;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px rgb(132, 40, 132);
+    box-shadow: 5px 5px  purple ;
+    position: absolute;
+    top: 600px;
+    left:910px;
+    text-align: center;
+}
+.Hd3
+{
+    font-weight: bolder;
+}
+.Hd4
+{
+    font-weight: lighter
+}
+.Hd5
+{
+    border-radius: 10px;
+    background-color: brown;
+}
+.container
+{
+    border: 10px solid purple;
+    background-color: green;
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 900px;
+    left: 270px;
+    right:10px;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows:50px 250px 200px 200px ;
+    gap: 5px;
+    
+}
+.item1
+{
+    grid-area: 1/1/2/3;
+    position: absolute;
+    top: -10px;  
+    left: 220px; 
+    font-size:25px;
+    font-weight: bolder;
+   
+
+}
+.item2
+{
+    grid-area: 2/1/3/2;
+    background-color: darkkhaki;
+    text-align: center;
+    font-style: italic;
+}
+.item3
+{
+    grid-area: 2/2/3/3;
+    background-color: darkkhaki;
+    text-align: center;
+    font-style: italic;
+}
+.item4
+{
+    grid-area: 3/1/4/3;
+    background-color: darkkhaki;
+    line-height: 15px;
+    text-align: center;
+    font-style: italic;
+}
+.common
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
